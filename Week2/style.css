@@ -1,10 +1,6 @@
 /* Tori Daye - Promineo Tech: Week 2 CSS Assignment */
 
 /* ALL CONTENT */
- {
-    border: 1px solid blue;
-}
-
 /* Body */
 body {
     width: 800px;
@@ -16,7 +12,6 @@ body {
     color: #333;
 }
 p {
-    border: none;
     margin: 10px;
 }
 img {
@@ -87,6 +82,41 @@ h3 {
 }
 
 /* Household Table */
+table {
+    border-collapse: collapse;
+}
+tr:nth-child(even) {
+    background-color: #e1f0f5;
+}
+th, td {
+    min-width: 80px;
+    padding: 2px 5px 2px 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Contact Info */
+.contact {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: large;
+    display: inline-block;
+}
+/* Contact Form */
+form {
+    margin: 50px 10px 10px;
+    padding: 20px;
+    font-size: large;
+    border: 1px solid #ddd;
+    float: right;
+    display: inline-block;
+}
+form > label {
+    display: inline-block;
+    width: 90px;
+}
+#submit {
+    margin-left: 10px;
+}
 
 
 /* Footer */
