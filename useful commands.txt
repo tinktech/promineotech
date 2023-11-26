@@ -1,0 +1,12 @@
+BE IN CORRECT DIR
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tdayetech/Week#.git
+git push -u origin main
+
+npm init
+npm i bootstrap
+npm i jquery
