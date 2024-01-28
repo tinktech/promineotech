@@ -14,3 +14,7 @@ BOOTSTRAP
 npm init
 npm i bootstrap
 npm i jquery
+
+npm init
+npm install mocha
+npm install chai
