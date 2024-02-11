@@ -9,7 +9,9 @@ git remote add origin https://github.com/tdayetech/Week#.git
 git push -u origin main
 
 
-BOOTSTRAP
+BOOTSTRAP & JQUERY
+
+npm list
 
 npm init
 npm i bootstrap
