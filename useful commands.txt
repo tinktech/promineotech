@@ -20,3 +20,12 @@ npm i jquery
 npm init
 npm install mocha
 npm install chai
+
+json-server --watch db.json
+
+
+REACT
+
+npx create-react-app my-app
+cd my-app
+npm start
