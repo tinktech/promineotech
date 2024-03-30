@@ -14,7 +14,7 @@ BOOTSTRAP & JQUERY
 npm list
 
 npm init
-npm i bootstrap
+npm i bootstrap@4.6.2
 npm i jquery
 
 npm init
